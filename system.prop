@@ -90,3 +90,5 @@ ro.build.release_type=release
 # Disable debugging strict mode toasts
 persist.sys.strictmode.disable=true
 
+# Device Maintainer
+ro.bliss.maintainer=FlashKiller
