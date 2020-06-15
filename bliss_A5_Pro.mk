@@ -43,10 +43,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Fingerprint
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys"
 
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.bliss.maintainer=FlashKiller
-
 # Bliss
 export BLISS_BUILDTYPE=OFFICIAL
 TARGET_USES_LAWNCHAIR := true
