@@ -42,6 +42,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 
 # Init cripts
 PRODUCT_PACKAGES += \
+    fstab.enableswap \
     init.mt6763.rc \
     fstab.mt6763 \
     init.safailnet.rc
