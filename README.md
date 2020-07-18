@@ -1,6 +1,6 @@
 ## Common android 10 build tree for:
 <p>
-<a href="https://github.com/RevengeOS/android_manifest>
+<a href="https://github.com/RevengeOS/android_manifest">
   <img src="https://img.shields.io/badge/manifest-RevengeOs%20OS-brightgreen" alt="FlashKillerV2">
 </a>
 </p>
