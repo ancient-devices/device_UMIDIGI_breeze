@@ -12,7 +12,8 @@ $(call inherit-product-if-exists, vendor/UMIDIGI/A5_Pro/A5_Pro-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
     
 # A/B
 AB_OTA_UPDATER := false
@@ -21,6 +22,10 @@ AB_OTA_UPDATER := false
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     libaacwrapper
+
+# Override Apps
+PRODUCT_PACKAGES += \
+    RetroMusic
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -41,6 +46,10 @@ PRODUCT_PACKAGES += \
     init.mt6763.rc \
     fstab.mt6763 \
     init.safailnet.rc
+
+#Symbols
+PRODUCT_PACKAGES += \
+    libshim_showlogo
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
@@ -68,3 +77,7 @@ PRODUCT_COPY_FILES += \
 # LiveDisplay
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service-mediatek
+
+# Doze
+PRODUCT_PACKAGES += \
+    CustomDoze
