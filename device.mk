@@ -22,10 +22,6 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     libaacwrapper
 
-# Override Apps
-PRODUCT_PACKAGES += \
-    RetroMusic
-
 # Camera
 PRODUCT_PACKAGES += \
     Snap
