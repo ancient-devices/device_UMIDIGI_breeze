@@ -12,8 +12,7 @@ $(call inherit-product-if-exists, vendor/UMIDIGI/A5_Pro/A5_Pro-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
     
 # A/B
 AB_OTA_UPDATER := false
@@ -78,6 +77,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service-mediatek
 
-# Doze
-PRODUCT_PACKAGES += \
-    CustomDoze
