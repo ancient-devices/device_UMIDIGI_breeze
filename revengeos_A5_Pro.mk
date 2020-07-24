@@ -43,5 +43,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Fingerprint
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys"
 
+# Revenge Os
+export REVENGEOS_BUILDTYPE := OFFICIAL
+
 # GMS as per stock
 PRODUCT_GMS_CLIENTID_BASE := android-umidigi
