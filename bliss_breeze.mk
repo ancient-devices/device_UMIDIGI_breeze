@@ -20,7 +20,7 @@ $(call inherit-product, device/UMIDIGI/A5_Pro/device.mk)
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bliss_A5_Pro
+PRODUCT_NAME := bliss_breeze
 PRODUCT_DEVICE := A5_Pro
 PRODUCT_BRAND := UMIDIGI
 PRODUCT_MODEL := A5_Pro
