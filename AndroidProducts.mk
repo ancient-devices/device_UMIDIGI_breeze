@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_breeze.mk
+    $(LOCAL_DIR)/ancient_breeze.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_breeze-userdebug
+    ancient_breeze-userdebug
