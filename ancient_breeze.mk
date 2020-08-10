@@ -42,5 +42,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Fingerprint
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
 
+# Ancient
+export ANCIENT_OFFICIAL=TRUE
+
 # GMS as per stock
 PRODUCT_GMS_CLIENTID_BASE := android-umidigi
