@@ -14,14 +14,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit from UMIDIGI A5 Pro device
-$(call inherit-product, device/UMIDIGI/A5_Pro/device.mk)
+$(call inherit-product, device/UMIDIGI/breeze/device.mk)
 
 # Inherit some common Revenge OS stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := revengeos_breeze
-PRODUCT_DEVICE := A5_Pro
+PRODUCT_DEVICE := breeze
 PRODUCT_BRAND := UMIDIGI
 PRODUCT_MODEL := A5_Pro
 PRODUCT_MANUFACTURER := UMIDIGI
@@ -32,6 +32,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1440
+
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="A5_Pro" \
