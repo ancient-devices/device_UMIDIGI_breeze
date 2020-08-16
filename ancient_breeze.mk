@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit from UMIDIGI A5 Pro device
-$(call inherit-product, device/UMIDIGI/A5_Pro/device.mk)
+$(call inherit-product, device/UMIDIGI/breeze/device.mk)
 
 # Inherit some common Revenge OS stuff.
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
@@ -30,8 +30,12 @@ PRODUCT_MANUFACTURER := UMIDIGI
 PRODUCT_AAPT_CONFIG := xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
+# Ancient
+ANCIENT_NOGAPPS := true
+IS_PHONE := true
+TARGET_BOOT_ANIMATION_RES := 720
+ANCIENT_OFFICIAL=true
+FORCE_OTA=true
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -41,9 +45,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Fingerprint
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
-
-# Ancient
-ANCIENT_OFFICIAL=TRUE
 
 # GMS as per stock
 PRODUCT_GMS_CLIENTID_BASE := android-umidigi
