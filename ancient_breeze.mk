@@ -16,12 +16,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from UMIDIGI A5 Pro device
 $(call inherit-product, device/UMIDIGI/breeze/device.mk)
 
-# Inherit some common Revenge OS stuff.
+# Inherit some common Ancient OS stuff.
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := ancient_breeze
-PRODUCT_DEVICE := A5_Pro
+PRODUCT_DEVICE := breeze
 PRODUCT_BRAND := UMIDIGI
 PRODUCT_MODEL := A5_Pro
 PRODUCT_MANUFACTURER := UMIDIGI
