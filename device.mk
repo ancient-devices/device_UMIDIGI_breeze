@@ -25,7 +25,8 @@ PRODUCT_PACKAGES += \
 
 # Override Apps
 PRODUCT_PACKAGES += \
-    RetroMusic
+    RetroMusic \
+    MiXplorer
 
 # Camera
 PRODUCT_PACKAGES += \
