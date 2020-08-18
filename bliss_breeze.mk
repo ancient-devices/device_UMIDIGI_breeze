@@ -15,6 +15,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit from UMIDIGI A5 Pro device
 $(call inherit-product, device/UMIDIGI/breeze/device.mk)
+$(call inherit-product, vendor/xtras/xtras.mk)
 
 # Inherit some common Bliss Os stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
