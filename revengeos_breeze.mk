@@ -15,6 +15,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit from UMIDIGI A5 Pro device
 $(call inherit-product, device/UMIDIGI/breeze/device.mk)
+$(call inherit-product, vendor/xtras/xtras.mk)
 
 # Inherit some common Revenge OS stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
@@ -31,7 +32,7 @@ PRODUCT_AAPT_CONFIG := xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Boot animation
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
