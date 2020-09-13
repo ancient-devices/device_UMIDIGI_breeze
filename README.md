@@ -20,7 +20,7 @@ Component Type | Details
 CPU     | Octa-Core 4 x 2.0GHz ARM Cortex-A53 + 4 x 1.5GHz ARM Cortex-A53 CPU Clock
 Platform | MediaTek MT6763
 GPU     | ARM Mali-G71 MP2, 770 MHz, 2-Cores
-Memory  | 4GB LPDDR4(X), 1600MHz
+Memory  | 4GB LPDDR3, 1600MHz
 Shipped Android Version | 	Android 9.0 Pie
 Storage | ROM 32GB External Memory Supports Up to 256GB (Uses SIM 2 Slot)
 Battery | Non-Removable 4150 mAh Lithium-Polymer
