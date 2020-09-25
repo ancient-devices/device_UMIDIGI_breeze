@@ -1,11 +1,11 @@
 ## Common android 10 build tree for:
 <p>
-<a href="https://github.com/BootleggersROM/manifest">
-  <img src="https://img.shields.io/badge/manifest-Bootleggers%20OS-brightgreen" alt="FlashKillerV2">
+<a href="https://github.com/AospExtended/manifest">
+  <img src="https://img.shields.io/badge/manifest-AEX%20OS-brightgreen" alt="FlashKillerV2">
 </a>
 </p>
 
-There is no official codename for this phone, so everything in this repository is just named ![Hadenix](https://img.shields.io/badge/-breeze-blue).
+There is no official codename for this phone, so everything in this repository is just named ![FlashKillerV2](https://img.shields.io/badge/-breeze-blue).
 
 UMIDIGI A5 Pro (codename: ![FlashKillerV2](https://img.shields.io/badge/-breeze-blue) ) Gets under budget level wing from UMIDIGI.
 
@@ -20,7 +20,7 @@ Component Type | Details
 CPU     | Octa-Core 4 x 2.0GHz ARM Cortex-A53 + 4 x 1.5GHz ARM Cortex-A53 CPU Clock
 Platform | MediaTek MT6763
 GPU     | ARM Mali-G71 MP2, 770 MHz, 2-Cores
-Memory  | 4GB LPDDR4(X), 1600MHz
+Memory  | 4GB LPDDR3, 1600MHz
 Shipped Android Version | 	Android 9.0 Pie
 Storage | ROM 32GB External Memory Supports Up to 256GB (Uses SIM 2 Slot)
 Battery | Non-Removable 4150 mAh Lithium-Polymer
