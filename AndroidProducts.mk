@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/bliss_breeze.mk
+    $(LOCAL_DIR)/bliss_A5_Pro.mk
 
 COMMON_LUNCH_CHOICES += \
-    bliss_breeze-userdebug
+    blissify_A5_Pro

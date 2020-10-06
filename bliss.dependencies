@@ -2,14 +2,14 @@
   {
     "remote":      "github",
     "repository":  "UMIDIGI-A5-Pro/device_UMIDIGI_breeze",
-    "target_path": "device/UMIDIGI/breeze",
-    "branch":      "blissify"
+    "target_path": "device/UMIDIGI/A5_Pro",
+    "branch":      "bliss_r"
   },
   {
     "remote":      "github",
     "repository":  "UMIDIGI-A5-Pro/vendor_UMIDIGI_breeze",
-    "target_path": "vendor/UMIDIGI/breeze",
-    "branch":      "master"
+    "target_path": "vendor/UMIDIGI/A5_Pro",
+    "branch":      "bliss_r"
   },
     {
     "remote":      "github",
