@@ -5,7 +5,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/UMIDIGI/breeze/breeze-vendor.mk)
+$(call inherit-product-if-exists, vendor/UMIDIGI/A5_Pro/A5_Pro-vendor.mk)
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk
@@ -35,6 +35,11 @@ PRODUCT_PACKAGES += \
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
+
+# HIDL
+PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhwbinder \
 
 # Init cripts
 PRODUCT_PACKAGES += \
@@ -73,6 +78,10 @@ PRODUCT_COPY_FILES += \
 # LiveDisplay
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service-mediatek
+
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 28
+PRODUCT_EXTRA_VNDK_VERSIONS := 28
 
 # Doze
 PRODUCT_PACKAGES += \
