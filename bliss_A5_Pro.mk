@@ -45,6 +45,7 @@ BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.200720.009/6720564:user/release
 
 # Bliss
 BLISS_BUILDTYPE=OFFICIAL
+BLISS_BUILD_VARIANT=vanilla
 
 # GMS as per stock
 PRODUCT_GMS_CLIENTID_BASE := android-umidigi
