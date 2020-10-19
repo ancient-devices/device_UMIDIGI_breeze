@@ -18,6 +18,6 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/bliss_A5_Pro.mk
 
 COMMON_LUNCH_CHOICES += \
-    bliss_A5_Pro-userdebug
-    bliss_A5_Pro-eng
+    bliss_A5_Pro-userdebug \
+    bliss_A5_Pro-eng \
     bliss_A5_Pro-user
