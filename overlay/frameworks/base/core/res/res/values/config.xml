@@ -526,8 +526,6 @@
     manually by the user. Off by default, since the expected haptic feedback may not be available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
 
-    <string name="config_recentsComponentName" translatable="false">ch.deletescape.lawnchair.ci/com.android.quickstep.RecentsActivity</string>
-
     <!-- System info -->
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
     <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
